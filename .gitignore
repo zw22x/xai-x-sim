@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Mac
+.DS_Store
+
+# Project
+wandb/
+logs/
+models/
+data/
+*.pt
+*.pth
+*.pkl
+*.DS_Store
