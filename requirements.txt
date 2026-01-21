@@ -7,3 +7,7 @@ wandb
 tqdm
 einops
 jupyter
+python-dotenv
+typer
+rich
+xai-sdk
