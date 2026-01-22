@@ -46,7 +46,7 @@ def run_simulation(messages, model: str, max_tokens: int = 2200) -> str:
 @app.command()
 def simulate(
     scenario: str = typer.Argument(..., help="The what-if question"),
-    steps: int = typer.Option(8, "--steps", "-s", help="Target number of steps"),
+    steps: int = typer.Option(8, "--steps", "-s", help="Target number of steps"), 
     model: str = typer.Option("grok-4-0709", "--model", help="Grok model to use"),
     interactive: bool = typer.Option(False, "--interactive", "-i", help="Allow mid-simulation changes"),
     output_dir: str = typer.Option("simulations", "--out", help="Folder to save results"),
